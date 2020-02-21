@@ -1,5 +1,7 @@
 # Backup-LanProfile
 
+PLEASE SEE THIS INSTEAD: https://github.com/marcuswahlstam/Start-WiredAutoconfigFix
+
 The Problem
 Beginning with Windows 10 1703 there is a problem in the In-Place Upgrade (IUP) process (Windows 10 to Windows 10) that resets the 802.1x settings to default values, which causes problems for those using certificate-based authentication for their 802.1x. The computer will simply not authenticate. And to get the correct settings for 802.1x, the computer needs a working network connection to able to get these settings through Group Policy. A catch 22!
 One solution could be to disable 802.1x during the upgrade, but that is not an acceptable solution in even a quite small organization. And security wise it’s a disaster.
